@@ -1,0 +1,153 @@
+-
+  name: Metasearch
+  url: http://dico.karmafish.net:8001/search?q=%s
+  key: m
+-
+  name: Wörterbuch Französisch
+  url: http://dict.leo.org/?lp=frde&lang=de&searchLoc=0&cmpType=relaxed&relink=on&sectHdr=on&spellToler=std&search=%s
+  key: f
+-
+  name: Wörterbuch Griechisch
+  url: http://www.perseus.tufts.edu/cgi-bin/morphindex?lookup=%s&.submit=Analyze+Form&searchText=&lang=greek&formentry=1
+  key: gr
+-
+  name: Wörterbuch dictionary.reference.com
+  url: http://dictionary.reference.com/search?q=%s
+  key: di
+-
+  name: Wörterbuch dictionary.cambridge.org
+  url: http://dictionary.cambridge.org/results.asp?searchword=%s&dict=CALD
+  key: c
+-
+  name: Wörterbuch Phrasal Verbs
+  url: http://dictionary.cambridge.org/results.asp?searchword=%s&dict=P
+  key: cp
+-
+  name: Wörterbuch Idioms
+  url: http://dictionary.cambridge.org/results.asp?searchword=%s&dict=I
+  key: ci
+-
+  name: Wörterbuch wissen.de
+  url: http://www.wissen.de/xt/default.do?MENUNAME=Suche&SEARCHTYPE=topic&query=%s
+  key: wi
+-
+  name: Thesaurus (reference.com)
+  url: http://thesaurus.reference.com/search?q=%s
+  key: t
+-
+  name: The Free Dictionary
+  url: http://www.thefreedictionary.com/%s
+  key: fd
+-
+  name: Google
+  url: http://www.google.de/search?hl=de&q=%s&btnG=Google-Suche&meta=
+  key: g
+  default: true
+-
+  name: Google feel lucky
+  url: http://www.google.de/search?hl=de&q=%s&btnI=Auf+gut+Gl%C3%BCck%21&meta=
+  key: l
+-
+  name: Wikipedia Deutsch
+  url: http://de.wikipedia.org/wiki/Spezial:Search?search=%s&go=Artikel
+  key: w
+-
+  name: Wikipedia Englisch
+  url: http://en.wikipedia.org/wiki/Spezial:Search?search=%s&go=Artikel
+  key: we
+-
+  name: Wikipedia Französisch
+  url: http://fr.wikipedia.org/wiki/Spezial:Search?search=%s&go=Artikel
+  key: wf
+-
+  name: IMDB
+  url: http://imdb.com/find?q=%s
+  key: i
+-
+  name: Wörterbuch Englisch
+  url: http://dict.leo.org/?lp=ende&lang=en&searchLoc=0&cmpType=relaxed&relink=on&sectHdr=on&spellToler=std&search=%s
+  key: e
+-
+  name: Songtexte
+  url: http://seek.sing365.com:8080/cgi-bin/s.cgi?q=%s
+  key: s
+-
+  name: A9
+  url: http://a9.com/%s
+  key: a9
+-
+  name: Amazon.de
+  url: http://www.amazon.de/exec/obidos/external-search?tag=luma&index=blended&keyword=%s
+  key: a
+-
+  name: Vivisimo
+  url: http://de.vivisimo.com/search?language=all&dlang=de&enablejs=0&timeout=4500&query=%s&v%3Asources=GermanWeb
+  key: v
+-
+  name: Deutsche Bibliothek
+  url: http://dispatch.opac.ddb.de/DB=4.1/SET=4/TTL=31/CMD?ACT=SRCHA&IKT=8500&SRT=YOP&TRM=%s
+  key: ddb
+-
+  name: Google Maps Deutsch
+  url: http://maps.google.de/maps?f=q&hl=de&q=%s&om=1
+  key: k
+-
+  name: Bugs in Ubuntu
+  url: https://launchpad.net/distros/ubuntu/+bugs?field.searchtext=%s&orderby=-importance&search=Search&field.status﷐3Alist=Unconfirmed&field.status﷐3Alist=Confirmed&field.status﷐3Alist=In+Progress&field.status﷐3Alist=Needs+Info&field.status﷐3Alist=Fix+Committed&field.assignee=&field.owner=&field.omit_dupes=on&field.has_patch=&field.has_no_package=
+  key: ubuntubugs
+-
+  name: eBay
+  url: http://search.ebay.de/search/search.dll?MfcISAPICommand=GetResult&ht=1&query=%s
+  key: ebay
+-
+  name: Ruby
+  url: http://www.google.de/search?hl=de&q=site%3Aruby-doc.org+-%22.src%22+%s&btnG=Suche&meta=
+  key: ruby
+-
+  name: Quickqo
+  url: http://dico.karmafish.net:8001/go/%s
+  key: q
+-
+  name: Quickqo
+  url: http://del.icio.us/search/?fr=del_icio_us&p=%s&type=all
+  key: de
+-
+  name: Digitales Woerterbuch
+  url: http://www.dwds.de/?woerterbuch=1&corpus=1&kompakt=1&sh=1&qu=%s
+  key: d
+-
+  name: Digitales Woerterbuch Corpus
+  url: http://www.dwds.de/?corpus=1&sh=1&qu=%s
+  key: dc
+-
+  name: Sugarcodes
+  url: http://www.sugarcodes.com/sugar/?q=%s
+  key: x
+-
+  name: YubNub - YubNub.org
+  url: http://yubnub.org/parser/parse?command=%s
+  key: y
+-
+  name: Google Maps München
+  url: http://maps.google.de/maps?f=q&hl=de&q=%s,+m%FCnchen&om=1
+  key: muc
+-
+  name: Google English
+  url: http://www.google.com/search?hl=en&q=%s
+  key: ge
+-
+  name: UB OPAC
+  url: https://opacplus.ub.uni-muenchen.de/InfoGuideClient.ubmsis/start.do?Login=igubm&SearchType=1&Query=-1%3d%s&BaseURL=http%3a%2f%2fopacplus.ub.uni-muenchen.de%2fInfoGuideClient%2fstart.do%3fLogin%3digubm%26SearchType%3d1
+  key: u
+-
+  name: Stabi OPAC
+  url: http://www.bsb-muenchen.de/bsbsearch.php?styl=&Query=%s&Engine=OPACplus&tx_indexedsearch%5Bsubmit_button%5D=Suche&tx_indexedsearch%5B_sections%5D=0&tx_indexedsearch%5Bpointer%5D=0&tx_indexedsearch%5Bext%5D=0
+  key: s
+-
+  name: Ubuntu CSE
+  url: http://people.ubuntu.com/~kirkland/search.html?cx=003883529982892832976%3Aly2fmeg302s&cof=FORID%3A9&q=%s&sa=Search
+  key: ubuntu
+-
+  name: Wikipedia Portugiesisc
+  url: http://pt.wikipedia.org/wiki/Spezial:Search?search=%s&go=Artikel
+  key: wp
